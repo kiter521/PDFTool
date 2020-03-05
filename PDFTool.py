@@ -14,7 +14,7 @@ def SplitAll(pfile, wr):
         with open(str(idx + 1) + '_split.pdf', 'wb') as out:
             wr.write(out)
             wr = PdfFileWriter()
-    
+ 
 #将指定页分割成pdf文档
 def SplitSpec(pfile, wr, page):
     pdf = PdfFileReader(pfile)
@@ -46,7 +46,7 @@ def SplitRangeSig(pfile, wr, start, end):
     if int(start) < 0 and int(end) > pdf.getNumPages():
         print('Range is wrong !!!')
         sys.exit()
-    
+
     for idx in range(int(start), int(end) + 1):
         wr.addPage(pdf.getPage(idx - 1))
         with open(str(idx) + '_split.pdf', 'wb') as out:
