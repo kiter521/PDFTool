@@ -52,6 +52,18 @@ def SplitRangeSig(pfile, wr, start, end):
         with open(str(idx) + '_split.pdf', 'wb') as out:
             wr.write(out)
             wr = PdfFileWriter()
+
+def MergePdf(wr):
+    for idx in range(0, sys.argv.count()):
+        pdf = PdfFileReader(sys.argv[idx + 2])
+        for idy in range(pdf.getNumPages()):
+            wr.addPage(pdf.getPage(idy))
+
+    with open('newfile.pdf', 'wb') as out:
+        wr.write(out)
+
+def MergeSpecPdf(writer):
+    
 '''
     参数说明：
     argv --
@@ -61,12 +73,15 @@ def SplitRangeSig(pfile, wr, start, end):
          a -- 分割全部
          s -- 分割指定页
          r -- 分割指定范围
+         rs-- 分割指定范围为单独pdf
+         m -- 合并指定的pdf文档
+         ms-- 合并一个pdf文件中的指定页数
       3：可选参数
          argv[2]==a :不指定
          argv[2]==s : 指定的页数
-         argv[2]==r : 指定范围的开始页数
+         argv[2]==r / rs: 指定范围的开始页数
       4：可选参数
-         argv[2]==r : 指定范围的结束页数
+         argv[2]==r / rs: 指定范围的结束页数
 '''
 
 if __name__ == "__main__":
@@ -81,6 +96,10 @@ if __name__ == "__main__":
         SplitRange(fileName, writer, sys.argv[3], sys.argv[4])
     elif sys.argv[2] == 'rs':
         SplitRangeSig(fileName, writer, sys.argv[3], sys.argv[4])
+    elif sys.argv[1] == 'm':
+        MergePdf(writer)
+    elif sys.argv[1] == 'ms':
+        MergeSpecPdf(writer)
     else:
         #error
         print('should not come here!')
