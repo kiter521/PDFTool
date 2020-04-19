@@ -25,7 +25,6 @@ def SplitSpec(pfile, wr, page):
     with open(str(page) + '_split.pdf', 'wb') as out:
         wr.write(out)
 
-
 #将指定范围的页分割成pdf文档
 def SplitRange(pfile, wr, start, end):
     pdf = PdfFileReader(pfile)
@@ -53,16 +52,28 @@ def SplitRangeSig(pfile, wr, start, end):
             wr.write(out)
             wr = PdfFileWriter()
 
+#将指定的多个pdf文件合并成一个pdf
 def MergePdf(wr):
-    for idx in range(0, sys.argv.count()):
-        pdf = PdfFileReader(sys.argv[idx + 2])
+    for idx in range(2, len(sys.argv)):
+        pdf = PdfFileReader(sys.argv[idx])
         for idy in range(pdf.getNumPages()):
             wr.addPage(pdf.getPage(idy))
 
-    with open('newfile.pdf', 'wb') as out:
+    with open('new_merge_file.pdf', 'wb') as out:
         wr.write(out)
 
-def MergeSpecPdf(writer):
+#将一个pdf文件中的指定页合并成一个pdf文件
+def MergeSpecPdf(pfile, wr):
+    pdf = PdfFileReader(pfile)
+
+    for idx in range(3, len(sys.argv)):
+        if (int(sys.argv[idx]) - 1) < 0 or (int(sys.argv[idx]) - 1)> pdf.getNumPages():
+            print('Wrong page number!')
+            sys.exit()
+        wr.addPage(pdf.getPage(int(sys.argv[idx]) - 1))
+
+    with open('merge_one.pdf', 'wb') as out:
+        wr.write(out)
     
 '''
     参数说明：
@@ -85,21 +96,21 @@ def MergeSpecPdf(writer):
 '''
 
 if __name__ == "__main__":
-    fileName = sys.argv[1]
+    fileName = sys.argv[2]
     writer = PdfFileWriter()
     #deal
-    if sys.argv[2] == 'a':
+    if sys.argv[1] == '-a':
         SplitAll(fileName, writer)
-    elif sys.argv[2] == 's':
+    elif sys.argv[1] == '-s':
         SplitSpec(fileName, writer, sys.argv[3])
-    elif sys.argv[2] == 'r':
+    elif sys.argv[1] == '-r':
         SplitRange(fileName, writer, sys.argv[3], sys.argv[4])
-    elif sys.argv[2] == 'rs':
+    elif sys.argv[1] == '-rs':
         SplitRangeSig(fileName, writer, sys.argv[3], sys.argv[4])
-    elif sys.argv[1] == 'm':
+    elif sys.argv[1] == '-m':
         MergePdf(writer)
-    elif sys.argv[1] == 'ms':
-        MergeSpecPdf(writer)
+    elif sys.argv[1] == '-ms':
+        MergeSpecPdf(fileName, writer)
     else:
         #error
         print('should not come here!')
