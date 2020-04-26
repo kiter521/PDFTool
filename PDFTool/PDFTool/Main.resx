@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btn_split.Name" xml:space="preserve">
+    <value>btn_split</value>
+  </data>
+  <data name="&gt;&gt;btn_split.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_split.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;btn_split.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_end.Name" xml:space="preserve">
+    <value>txt_spec_range_one_end</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_end.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_end.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_end.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_start.Name" xml:space="preserve">
+    <value>txt_spec_range_one_start</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_start.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_start.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range_pdf.Name" xml:space="preserve">
+    <value>chk_spec_range_pdf</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range_pdf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range_pdf.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range_pdf.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_end.Name" xml:space="preserve">
+    <value>txt_spec_range_end</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_end.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_end.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_end.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lab_end.Name" xml:space="preserve">
+    <value>lab_end</value>
+  </data>
+  <data name="&gt;&gt;lab_end.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_end.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;lab_end.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lab_start.Name" xml:space="preserve">
+    <value>lab_start</value>
+  </data>
+  <data name="&gt;&gt;lab_start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_start.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;lab_start.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_start.Name" xml:space="preserve">
+    <value>txt_spec_range_start</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_start.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_start.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_one.Name" xml:space="preserve">
+    <value>txt_spec_one</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_one.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_one.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_one.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range.Name" xml:space="preserve">
+    <value>chk_spec_range</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chk_spec.Name" xml:space="preserve">
+    <value>chk_spec</value>
+  </data>
+  <data name="&gt;&gt;chk_spec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_spec.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;chk_spec.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chk_all.Name" xml:space="preserve">
+    <value>chk_all</value>
+  </data>
+  <data name="&gt;&gt;chk_all.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_all.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;chk_all.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btn_file.Name" xml:space="preserve">
+    <value>btn_file</value>
+  </data>
+  <data name="&gt;&gt;btn_file.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_file.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;btn_file.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;file_name.Name" xml:space="preserve">
+    <value>file_name</value>
+  </data>
+  <data name="&gt;&gt;file_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;file_name.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;file_name.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gb_split.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 40</value>
+  </data>
+  <data name="gb_split.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 307</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gb_split.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gb_split.Text" xml:space="preserve">
+    <value>分割PDF</value>
+  </data>
+  <data name="&gt;&gt;gb_split.Name" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;gb_split.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_split.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_split.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_split.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 263</value>
+  </data>
+  <data name="btn_split.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 23</value>
+  </data>
+  <data name="btn_split.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btn_split.Text" xml:space="preserve">
+    <value>分割</value>
+  </data>
+  <data name="&gt;&gt;btn_split.Name" xml:space="preserve">
+    <value>btn_split</value>
+  </data>
+  <data name="&gt;&gt;btn_split.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_split.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;btn_split.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_spec_range_one_end.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 205</value>
+  </data>
+  <data name="txt_spec_range_one_end.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 19</value>
+  </data>
+  <data name="txt_spec_range_one_end.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_end.Name" xml:space="preserve">
+    <value>txt_spec_range_one_end</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_end.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_end.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_end.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 209</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>End:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 208</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 12</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_spec_range_one_start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 205</value>
+  </data>
+  <data name="txt_spec_range_one_start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 19</value>
+  </data>
+  <data name="txt_spec_range_one_start.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_start.Name" xml:space="preserve">
+    <value>txt_spec_range_one_start</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_start.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_one_start.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chk_spec_range_pdf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_spec_range_pdf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 208</value>
+  </data>
+  <data name="chk_spec_range_pdf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 16</value>
+  </data>
+  <data name="chk_spec_range_pdf.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chk_spec_range_pdf.Text" xml:space="preserve">
+    <value>分割指定範囲TO単独pdf</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range_pdf.Name" xml:space="preserve">
+    <value>chk_spec_range_pdf</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range_pdf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range_pdf.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range_pdf.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txt_spec_range_end.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 161</value>
+  </data>
+  <data name="txt_spec_range_end.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 19</value>
+  </data>
+  <data name="txt_spec_range_end.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_end.Name" xml:space="preserve">
+    <value>txt_spec_range_end</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_end.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_end.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_end.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lab_end.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_end.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 165</value>
+  </data>
+  <data name="lab_end.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 12</value>
+  </data>
+  <data name="lab_end.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lab_end.Text" xml:space="preserve">
+    <value>End:</value>
+  </data>
+  <data name="&gt;&gt;lab_end.Name" xml:space="preserve">
+    <value>lab_end</value>
+  </data>
+  <data name="&gt;&gt;lab_end.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_end.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;lab_end.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lab_start.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 164</value>
+  </data>
+  <data name="lab_start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 12</value>
+  </data>
+  <data name="lab_start.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lab_start.Text" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="&gt;&gt;lab_start.Name" xml:space="preserve">
+    <value>lab_start</value>
+  </data>
+  <data name="&gt;&gt;lab_start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_start.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;lab_start.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txt_spec_range_start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 161</value>
+  </data>
+  <data name="txt_spec_range_start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 19</value>
+  </data>
+  <data name="txt_spec_range_start.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_start.Name" xml:space="preserve">
+    <value>txt_spec_range_start</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_start.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_range_start.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txt_spec_one.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 122</value>
+  </data>
+  <data name="txt_spec_one.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 19</value>
+  </data>
+  <data name="txt_spec_one.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_one.Name" xml:space="preserve">
+    <value>txt_spec_one</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_one.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_one.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_one.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chk_spec_range.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_spec_range.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 164</value>
+  </data>
+  <data name="chk_spec_range.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="chk_spec_range.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chk_spec_range.Text" xml:space="preserve">
+    <value>指定範囲分割</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range.Name" xml:space="preserve">
+    <value>chk_spec_range</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_range.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chk_spec.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_spec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 122</value>
+  </data>
+  <data name="chk_spec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="chk_spec.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chk_spec.Text" xml:space="preserve">
+    <value>指定ページ分割</value>
+  </data>
+  <data name="&gt;&gt;chk_spec.Name" xml:space="preserve">
+    <value>chk_spec</value>
+  </data>
+  <data name="&gt;&gt;chk_spec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_spec.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;chk_spec.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chk_all.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_all.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 81</value>
+  </data>
+  <data name="chk_all.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 16</value>
+  </data>
+  <data name="chk_all.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chk_all.Text" xml:space="preserve">
+    <value>すべて分割</value>
+  </data>
+  <data name="&gt;&gt;chk_all.Name" xml:space="preserve">
+    <value>chk_all</value>
+  </data>
+  <data name="&gt;&gt;chk_all.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_all.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;chk_all.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btn_file.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 37</value>
+  </data>
+  <data name="btn_file.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btn_file.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_file.Text" xml:space="preserve">
+    <value>ﾌｧｲﾙ</value>
+  </data>
+  <data name="&gt;&gt;btn_file.Name" xml:space="preserve">
+    <value>btn_file</value>
+  </data>
+  <data name="&gt;&gt;btn_file.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_file.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;btn_file.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="file_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 37</value>
+  </data>
+  <data name="file_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 19</value>
+  </data>
+  <data name="file_name.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;file_name.Name" xml:space="preserve">
+    <value>file_name</value>
+  </data>
+  <data name="&gt;&gt;file_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;file_name.Parent" xml:space="preserve">
+    <value>gb_split</value>
+  </data>
+  <data name="&gt;&gt;file_name.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 223</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 12</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_merge_page.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 238</value>
+  </data>
+  <data name="txt_merge_page.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 19</value>
+  </data>
+  <data name="txt_merge_page.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txt_merge_page.Name" xml:space="preserve">
+    <value>txt_merge_page</value>
+  </data>
+  <data name="&gt;&gt;txt_merge_page.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_merge_page.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;txt_merge_page.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_clear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 112</value>
+  </data>
+  <data name="btn_clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="btn_clear.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btn_clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;btn_clear.Name" xml:space="preserve">
+    <value>btn_clear</value>
+  </data>
+  <data name="&gt;&gt;btn_clear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_clear.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;btn_clear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_delete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 83</value>
+  </data>
+  <data name="btn_delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="btn_delete.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btn_delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;btn_delete.Name" xml:space="preserve">
+    <value>btn_delete</value>
+  </data>
+  <data name="&gt;&gt;btn_delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_delete.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;btn_delete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_file_merge_spec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 195</value>
+  </data>
+  <data name="btn_file_merge_spec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="btn_file_merge_spec.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btn_file_merge_spec.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="&gt;&gt;btn_file_merge_spec.Name" xml:space="preserve">
+    <value>btn_file_merge_spec</value>
+  </data>
+  <data name="&gt;&gt;btn_file_merge_spec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_file_merge_spec.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;btn_file_merge_spec.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_file_merge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 54</value>
+  </data>
+  <data name="btn_file_merge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="btn_file_merge.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btn_file_merge.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="&gt;&gt;btn_file_merge.Name" xml:space="preserve">
+    <value>btn_file_merge</value>
+  </data>
+  <data name="&gt;&gt;btn_file_merge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_file_merge.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;btn_file_merge.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="list_files.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="list_files.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 54</value>
+  </data>
+  <data name="list_files.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 88</value>
+  </data>
+  <data name="list_files.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;list_files.Name" xml:space="preserve">
+    <value>list_files</value>
+  </data>
+  <data name="&gt;&gt;list_files.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;list_files.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;list_files.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_merge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 263</value>
+  </data>
+  <data name="btn_merge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 23</value>
+  </data>
+  <data name="btn_merge.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btn_merge.Text" xml:space="preserve">
+    <value>マージ</value>
+  </data>
+  <data name="&gt;&gt;btn_merge.Name" xml:space="preserve">
+    <value>btn_merge</value>
+  </data>
+  <data name="&gt;&gt;btn_merge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_merge.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;btn_merge.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chk_spec_merge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_spec_merge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 173</value>
+  </data>
+  <data name="chk_spec_merge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 16</value>
+  </data>
+  <data name="chk_spec_merge.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chk_spec_merge.Text" xml:space="preserve">
+    <value>pdf指定ページマージ</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_merge.Name" xml:space="preserve">
+    <value>chk_spec_merge</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_merge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_merge.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;chk_spec_merge.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txt_spec_merge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 195</value>
+  </data>
+  <data name="txt_spec_merge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 19</value>
+  </data>
+  <data name="txt_spec_merge.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_merge.Name" xml:space="preserve">
+    <value>txt_spec_merge</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_merge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_merge.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;txt_spec_merge.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chk_merge_spec.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chk_merge_spec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 32</value>
+  </data>
+  <data name="chk_merge_spec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 16</value>
+  </data>
+  <data name="chk_merge_spec.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chk_merge_spec.Text" xml:space="preserve">
+    <value>指定pdf文書マージ</value>
+  </data>
+  <data name="&gt;&gt;chk_merge_spec.Name" xml:space="preserve">
+    <value>chk_merge_spec</value>
+  </data>
+  <data name="&gt;&gt;chk_merge_spec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_merge_spec.Parent" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;chk_merge_spec.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gb_merge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 381</value>
+  </data>
+  <data name="gb_merge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 307</value>
+  </data>
+  <data name="gb_merge.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gb_merge.Text" xml:space="preserve">
+    <value>統合PDF</value>
+  </data>
+  <data name="&gt;&gt;gb_merge.Name" xml:space="preserve">
+    <value>gb_merge</value>
+  </data>
+  <data name="&gt;&gt;gb_merge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_merge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gb_merge.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>503, 738</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PDFTool</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PDFTool</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
